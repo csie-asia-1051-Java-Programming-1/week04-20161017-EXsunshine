@@ -12,17 +12,12 @@ public class ex02_105021057 {
 		Scanner scn = new Scanner(System.in);
 		int a = scn.nextInt();
 		int b = scn.nextInt();
-		System.out.println(a*b);
-		while(true){
-		System.out.print("是否繼續(Y/n):");
-		char fu = scn.next().charAt(0);
-		if(fu == 'n' || fu == 'N'){
-			break;
-		}else{
-			a = scn.nextInt();
-			b = scn.nextInt();
-			System.out.println(a+"*"+b+"="+a*b);
-		}
+		for(int x=1;a+1>x;x++){
+			for(int y=1;b+1>y;y++){
+				System.out.print(x*y+" ");
+			}
+			System.out.println();
 		}
 	}
+	
 }
