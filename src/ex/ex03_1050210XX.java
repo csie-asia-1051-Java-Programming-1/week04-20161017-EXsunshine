@@ -8,12 +8,15 @@
  * Date: 2016/10/17
  * Author: 1050210XX 周永振老師
  */
-
+import java.util.*;
 public class ex03_1050210XX {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner scn = new Scanner(System.in);
+		int a = scn.nextInt();
+		
+		
 	}
 
 }
