@@ -15,7 +15,12 @@ public class ex03_1050210XX {
 		// TODO Auto-generated method stub
 		Scanner scn = new Scanner(System.in);
 		int a = scn.nextInt();
-		
+		for(int x = 0;a>x;x++){
+			for(int y=0;x+1>y;y++){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
 		
 	}
 
