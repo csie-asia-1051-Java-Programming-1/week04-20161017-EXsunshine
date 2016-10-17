@@ -6,10 +6,10 @@
     @@  
     @
  * Date: 2016/10/17
- * Author: 1050210XX 周永振老師
+ * Author: 105021057 張岳埕
  */
 import java.util.*;
-public class ex04_1050210XX {
+public class ex04_105021057 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
